@@ -42,11 +42,11 @@ jobs:
 
       - name: Install agent
         run: |
-          curl -fsSL https://antigravity.google/cli/install.sh | bash
+          curl -fsSL --retry 5 --retry-all-errors --retry-delay 2 https://antigravity.google/cli/install.sh | bash
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
           mkdir -p "$RUNNER_TEMP/agent" && cd "$RUNNER_TEMP/agent"
-          curl -fsSL -o bridge.mjs https://antigravity.luch.dev/cloud/bridge-3a29986f4f63.mjs
-          curl -fsSL -o start-cloud-bridge.mjs https://antigravity.luch.dev/cloud/start-cloud-bridge-e9189556a93e.mjs
+          curl -fsSL --retry 5 --retry-all-errors --retry-delay 2 -o bridge.mjs https://antigravity.luch.dev/cloud/bridge-3a29986f4f63.mjs
+          curl -fsSL --retry 5 --retry-all-errors --retry-delay 2 -o start-cloud-bridge.mjs https://antigravity.luch.dev/cloud/start-cloud-bridge-e9189556a93e.mjs
           printf '%s  %s\n' 3a29986f4f63419568a5c9bdb2cd8e3b6b2fb09648e5c1bbbb8ae52a3b2fd6b1 bridge.mjs e9189556a93e717078e9927b126b9b74b2c12763d883ac38c39d4f8e978d8eaf start-cloud-bridge.mjs | sha256sum -c -
           npm install --no-audit --no-fund --silent node-pty@1.1.0
 
