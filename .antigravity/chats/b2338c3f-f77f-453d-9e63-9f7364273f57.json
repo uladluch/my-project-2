@@ -28,6 +28,18 @@
       "created_at": "2026-09-19T14:29:55.678Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "116157ac-480f-4cae-80ed-bfa5e7778993",
+      "role": "agent",
+      "content": "You're all set — your Google account is connected. Send your request again and I'll get to work.",
+      "status": "completed",
+      "model": "gemini-2.5-flash",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "03e4e114-253d-4a93-887d-d31bbddb11e0",
+      "created_at": "2026-09-19T14:30:29.321Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
