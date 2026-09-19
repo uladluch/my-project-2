@@ -16,6 +16,18 @@
       "created_at": "2026-09-19T14:27:54.581Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "f3999563-853e-4f78-a0e7-15c7c89a433f",
+      "role": "agent",
+      "content": "That link expired before the code arrived, so here's a fresh one.\n\n1. [Sign in with Google](https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&code_challenge=j3wK-b_7-kYtgNggrJ827PsgxO900Gi5odxaKXHeoYI&code_challenge_method=S256&prompt=consent&redirect_uri=https%3A%2F%2Fantigravity.google%2Foauth-callback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faicode+openid&state=NUPEDcCMEtFrtHZtjbAETg)\n2. Copy the code Google shows you\n3. Paste it here\n\nThe link is good for 60 seconds. If it runs out, send any message and you'll get a new one.",
+      "status": "completed",
+      "model": "gemini-2.5-flash",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "9e825c68-73e5-46db-b63c-d63a758dc071",
+      "created_at": "2026-09-19T14:29:55.678Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
