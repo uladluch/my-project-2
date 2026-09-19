@@ -3,7 +3,7 @@
   "name": "Hello",
   "createdAt": "2026-09-19T14:27:52.013Z",
   "filename": "b2338c3f-f77f-453d-9e63-9f7364273f57.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "9ee91eb4-3968-467b-931e-1e35a1c6ddcb",
@@ -39,6 +39,18 @@
       "parent_message_id": "03e4e114-253d-4a93-887d-d31bbddb11e0",
       "created_at": "2026-09-19T14:30:29.321Z",
       "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "79a700e4-8749-4a0f-bc1b-cc0cd5f93a53",
+      "role": "user",
+      "content": "Hello",
+      "status": "pending",
+      "model": "gemini-2.5-flash",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-09-19T14:30:36.696Z",
+      "sender": "ios",
       "is_cancelled": false
     }
   ]
